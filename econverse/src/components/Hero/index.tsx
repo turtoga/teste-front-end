@@ -5,7 +5,7 @@ import Button from "../Button";
 function Hero() {
   return (
     <section className="hero">
-      <img src={imgBanner} alt="aaa" />
+      <img src={imgBanner} alt="banner blackfriday"/>
       <div className="hero-txt">
         <h1>Venha conhecer nossas promoções</h1>
         <h3><span>50% Off</span> nos produtos</h3>
