@@ -6,7 +6,7 @@ function Newsletter() {
   return (
     <section className='newsletter'>
       <div>
-        <h3>Inscreva-se na nossa newsletter</h3>
+        <h1>Inscreva-se na nossa newsletter</h1>
         <p>Assine a nossa newsletter e receba as novidades e conteúdos exclusivos da Econverse.</p>      
       </div>
       <form>

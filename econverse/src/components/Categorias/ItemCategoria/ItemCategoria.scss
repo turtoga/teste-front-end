@@ -1,4 +1,4 @@
-@use '../../variables' as *;
+@use '../../../variables' as *;
 
 .item-categoria{
   cursor: pointer;
@@ -14,6 +14,10 @@
     margin-top: 22px;
     color: $cor-texto-terceiro;   
     text-align: center;
+  }
+
+  h1{
+    font-size: 32px;
   }
 }
 
