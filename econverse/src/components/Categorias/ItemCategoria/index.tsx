@@ -1,17 +1,17 @@
-
-
+import './ItemCategoria.scss';
 interface ItemCategoriaProps {
   img: string,
-  titulo: string
+  titulo: string,
+  ativo?: boolean;
 }
 
-function ItemCategoria(props: ItemCategoriaProps) {
+function ItemCategoria({img, titulo, ativo = false}:ItemCategoriaProps) {
   return (
-    <section className="item-categoria">
-      <figure>
-        <img src={props.img} alt={props.titulo} />
+    <section className='item-categoria'>
+      <figure className={`${ativo? 'ativo':''}`}>
+        <img src={img} alt={titulo}/>
         <figcaption>
-          <h5>{props.titulo}</h5>
+          <h5>{titulo}</h5>
         </figcaption>
       </figure>
     </section>

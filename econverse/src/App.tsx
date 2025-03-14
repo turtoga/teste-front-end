@@ -1,7 +1,7 @@
 import './app.scss'
-import ItemCategoria from './components/Categorias/ItemCategoria'
+import Categorias from './components/Categorias'
 import Hero from './components/Hero'
-import img from './assets/img/categorias/supermercados.png'
+
 
 function App() {
 
@@ -9,7 +9,7 @@ function App() {
     <>
       <main>
         <Hero/>
-        <ItemCategoria img={img} titulo={"Supermercado"}/>
+        <Categorias/>
       </main>
     </>
   )

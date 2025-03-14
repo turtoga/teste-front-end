@@ -1,0 +1,9 @@
+@use '../../app.scss' as *;
+
+.categorias{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 42px;
+  padding-top: 40px;
+}

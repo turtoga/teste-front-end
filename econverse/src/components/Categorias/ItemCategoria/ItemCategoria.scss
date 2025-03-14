@@ -1,15 +1,28 @@
 @use '../../../app.scss' as *;
 
 .item-categoria{
-  
+  cursor: pointer;
   
   img{
     padding: 34px;
     border-radius: 10px;
     box-shadow: 0 4px 11px hsl(0,0,0,0.13);
+    background-color: $cor-fundo-claro;
   }
 
   figcaption{
-    color: $cor-texto-terceiro;
+    margin-top: 22px;
+    color: $cor-texto-terceiro;   
+    text-align: center;
+  }
+}
+
+.ativo{
+  img{
+    background-color: $cor-branco;
+  }
+
+  figcaption{
+    color: $cor-roxo;
   }
 }

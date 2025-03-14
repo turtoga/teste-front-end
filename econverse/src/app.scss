@@ -15,31 +15,26 @@ $cor-texto-terceiro: #4E4E4E;
 $cor-cinza-claro: #808080;
 $cor-texto-input: #676767;
 
-body {
-    font-family: 'Poppins', sans-serif;
+figure, h5, h3, h1, body {
     padding: 0;
     margin: 0;
     border: 0;
 }
 
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 h1{
-    padding: 0;
-    margin: 0;
-    border: 0;
     font-size: 48px;
     font-weight: 600;
 }
 
 h3{
-    padding: 0;
-    margin: 0;
-    border: 0;
     font-size: 32px;
 }
 
 h5{
-    padding: 0;
-    margin: 0;
-    border: 0;
     font-size: 14px;
 }
+
