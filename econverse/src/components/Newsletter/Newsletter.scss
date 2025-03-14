@@ -1,5 +1,36 @@
-@use '../../app.scss' as *;
+@use '../../variables' as *;
 
 .newsletter {
   background-color: $cor-violeta;
+  padding: 40px 80px;
+  color: $cor-branco;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  h3 {
+    font-weight: 600;
+  }
+
+  p{
+    max-width: 510px;
+    line-height: 18px;
+    font-size: 14px;
+  }
+
+  .info {
+    display: flex;
+    gap: 8px;
+    padding-bottom: 8px;
+  } 
+
+  .check{
+    display: flex;
+    gap: 4px;
+
+    p{
+      font-size: 14px;
+    }
+  }
+
 }

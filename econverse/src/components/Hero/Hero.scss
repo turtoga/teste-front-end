@@ -1,4 +1,4 @@
-@use '../../app.scss' as *;
+@use '../../variables' as *;
 
 .hero-txt{
   position: absolute;
@@ -17,9 +17,11 @@
   h1{
     max-width: 590px;
     margin-bottom: 20px;
+    font-weight: 600;
   }
 
-  h3{
+  p{
+    font-size: 32px;
     margin-bottom: 40px;
   }
 

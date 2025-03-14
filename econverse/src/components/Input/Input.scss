@@ -1,0 +1,13 @@
+@use '../../variables' as *;
+
+.input{
+  margin: 0;
+  border: none;
+  padding: 12px 24px;
+  font-size: 14px;
+  border-radius: 8px;
+  background-color: $cor-branco-alternativo;
+  &:focus {
+    outline: none;
+  };
+}

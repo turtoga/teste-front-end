@@ -1,6 +1,7 @@
 import './app.scss'
 import Categorias from './components/Categorias'
 import Hero from './components/Hero'
+import Newsletter from './components/Newsletter'
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <main>
         <Hero/>
         <Categorias/>
+        <Newsletter/>
       </main>
     </>
   )

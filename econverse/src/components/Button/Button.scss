@@ -1,10 +1,10 @@
-@use '../../app.scss' as *;
+@use '../../variables' as *;
 
 .botao{
   background-color: $cor-amarelo;
   border-radius: 5px;
   border: none;
-  padding: 12px 52px;
+  padding: 13px 54.5px;
   font-size: 16px;
   font-weight: 600;
   color: $cor-violeta;
@@ -14,4 +14,15 @@
   &:focus {
     outline: none;
   };
+}
+
+.banner{
+  padding: 12px 26.51px;
+  border-radius: 6px;
+}
+
+.news{
+  padding: 15px 40px;
+  border-radius: 8px;
+  font-size: 14px;
 }
