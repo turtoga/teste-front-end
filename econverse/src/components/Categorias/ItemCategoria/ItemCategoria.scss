@@ -1,2 +1,15 @@
 @use '../../../app.scss' as *;
 
+.item-categoria{
+  
+  
+  img{
+    padding: 34px;
+    border-radius: 10px;
+    box-shadow: 0 4px 11px hsl(0,0,0,0.13);
+  }
+
+  figcaption{
+    color: $cor-texto-terceiro;
+  }
+}

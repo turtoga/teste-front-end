@@ -11,6 +11,7 @@ $cor-branco: #FFFFFF;
 $cor-fundo-claro: #F4F4F4;
 $cor-texto-principal: #3F3F40;
 $cor-texto-secundario: #222222ec;
+$cor-texto-terceiro: #4E4E4E;
 $cor-cinza-claro: #808080;
 $cor-texto-input: #676767;
 
@@ -34,4 +35,11 @@ h3{
     margin: 0;
     border: 0;
     font-size: 32px;
+}
+
+h5{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size: 14px;
 }
