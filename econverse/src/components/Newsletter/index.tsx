@@ -13,7 +13,7 @@ function Newsletter() {
         <div className='info'>
           <Input type='text' placeholder='Digite seu nome'/>
           <Input type='text' placeholder='Digite seu e-mail'/>
-          <Button type='news'>INSCREVER</Button>
+          <Button type='news-btn'>INSCREVER</Button>
         </div>
         <div className='check'>
           <Input type='checkbox'/>
