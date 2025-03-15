@@ -1,9 +1,17 @@
 @use '../../variables' as *;
 
-.categorias{
+.categorias {
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  gap: 42px;
   padding-top: 40px;
+
+  ul {
+    display: flex;  
+    padding: 0;  
+    gap: 42px;
+  }
+
+  li {
+    list-style: none;
+  }
 }

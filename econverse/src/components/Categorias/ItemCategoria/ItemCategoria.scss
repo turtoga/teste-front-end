@@ -1,12 +1,13 @@
 @use '../../../variables' as *;
 
+
 .item-categoria{
   cursor: pointer;
   
   img{
     padding: 34px;
     border-radius: 10px;
-    box-shadow: 0 4px 11px hsl(0,0,0,0.13);
+    box-shadow: 0 4px 11px hsl(0,0%,0%,13%);
     background-color: $cor-fundo-claro;
   }
 

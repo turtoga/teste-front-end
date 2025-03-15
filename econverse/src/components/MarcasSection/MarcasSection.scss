@@ -1,0 +1,12 @@
+.marcas-section{
+
+  ul{
+    display: flex;  
+    padding: 0;
+    justify-content: center;
+    gap: 42px;
+  }
+  li {
+    list-style: none;
+  }
+}

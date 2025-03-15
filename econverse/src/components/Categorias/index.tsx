@@ -17,14 +17,18 @@ function Categorias() {
 
   return (
     <section className='categorias'>
-      {categorias.map((categoria, index) => (
-        <ItemCategoria
-          key={index}
-          img={categoria.img}
-          titulo={categoria.titulo}
-          ativo={categoria.ativo}
-        />
-      ))}
+      <ul>
+        {categorias.map((categoria, index) => (
+          <li>
+            <ItemCategoria
+            key={index}
+            img={categoria.img}
+            titulo={categoria.titulo}
+            ativo={categoria.ativo}
+            />
+          </li>
+        ))}
+      </ul>
     </section>
   )
 }
