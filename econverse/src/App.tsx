@@ -2,16 +2,17 @@ import './app.scss'
 import BannerSection from './components/BannerSection'
 import Categorias from './components/Categorias'
 import Footer from './components/Footer'
+import Header from './components/Header'
 import Hero from './components/Hero'
 import MarcasSection from './components/MarcasSection'
 import Newsletter from './components/Newsletter'
-import Titulo from './components/Titulo'
 
 function App() {
 
   return (
     <>
       <main>
+        <Header/>
         <Hero/>
         <Categorias/>
         <BannerSection/>

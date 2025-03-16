@@ -1,1 +1,46 @@
 @use '../../variables' as *;
+
+.utilitario{
+  padding: 6px 0px;
+  border-bottom: 1px solid $cor-linha-header;
+  display: flex;
+  justify-content: center;
+  
+  img{
+    padding-right: 9px;
+  }
+
+  span{
+    font-weight: 600;
+    color: $cor-roxo;
+  }
+
+  ul {
+    display: flex;  
+    padding: 0;  
+    margin: 0;
+    gap: 119px;
+  }
+
+  li {
+    display: flex;
+    list-style: none;
+  }
+
+  p{
+    font-size: 12px;
+  }
+
+}
+
+.principal {
+  border-bottom: 1px solid $cor-linha-header;
+}
+
+.header{
+  padding: 0 80px;
+}
+
+.logo{
+  width: 139px;
+}
