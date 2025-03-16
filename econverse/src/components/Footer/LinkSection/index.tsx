@@ -13,7 +13,7 @@ interface LinkSectionProps {
 function LinkSection({ titulo, links }: LinkSectionProps) {
   return (
     <nav className="link-section">
-      <h1>{titulo}</h1>
+      <h2>{titulo}</h2>
       <ul>
         {links.map((link, index) => (
           <li key={index}>

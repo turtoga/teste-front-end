@@ -5,7 +5,6 @@ import gtIcon from '../../assets/icons/gt.svg'
 import ltIcon from '../../assets/icons/lt.svg'
 import Titulo from "../Titulo";
 import ItemFilter from "./ItemFilter";
-import Modal from "../Modal";
 
 interface Produto {
   productName: string;
@@ -74,7 +73,7 @@ function Carrossel({ dados = [], versao }: CarrosselProps) {
       }  
         
       <article className="carrossel">
-        <button className="carrossel-btn" onClick={antItem}><img src={ltIcon}/></button>
+        <button className="carrossel-btn" onClick={antItem}><img alt='<' src={ltIcon}/></button>
         <ul>
           {dadosAtuais.map((item: Produto, index) => (  
             <li key={index}>
@@ -90,7 +89,7 @@ function Carrossel({ dados = [], versao }: CarrosselProps) {
             </li>
           ))}
         </ul>
-        <button className="carrossel-btn" onClick={proxItem}><img src={gtIcon}/></button>
+        <button className="carrossel-btn" onClick={proxItem}><img alt='>' src={gtIcon}/></button>
       </article>
     </section>
     

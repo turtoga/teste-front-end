@@ -12,8 +12,20 @@ interface ModalProps {
 function Modal(props: ModalProps) {
   const dialogRef = useRef<HTMLDialogElement | null>(null);
   const [aberto, setAberto] = useState(false);
-
   const[contador, setContador] = useState(1)
+
+  useEffect(() => {
+    if (props.item) {
+      setAberto(true);
+      document.body.classList.add('desabilitar-scroll');
+    } else {
+      document.body.classList.remove('desabilitar-scroll'); 
+    }
+  
+    return () => {
+      document.body.classList.remove('desabilitar-scroll'); 
+    };
+  }, [props.item]);
 
   const maisContador = () => {
     setContador(contador+1)

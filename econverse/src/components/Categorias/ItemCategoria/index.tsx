@@ -12,7 +12,7 @@ function ItemCategoria({img, titulo, ativo = false, link}:ItemCategoriaProps) {
       <figure className={`${ativo? 'ativo':''}`}>
         <img src={img} alt={titulo}/>
         <figcaption>
-          <h1>{titulo}</h1>
+          <h2>{titulo}</h2>
         </figcaption>
       </figure>
     </a>

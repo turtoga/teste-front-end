@@ -12,15 +12,13 @@
 
 .modal{
   z-index: 3;
-  padding: 50px 50px;
+  padding: 50px;
   border: none;
   border-radius: 6px;
-
-  .fechar {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-  }
+  position: fixed; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
 
   dialog {
     position: fixed;
@@ -30,9 +28,7 @@
     left: 0;
     padding: 0;
     border: none;
-    width: 100vw; 
     background-color: transparent;
-    position: relative;
   }
 
   figure{
@@ -58,6 +54,9 @@
   top: 17px;
   right: 29px;
   font-size: 15px;
+  background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
 
 .nome-produto{
@@ -102,9 +101,15 @@
     font-size: 20px;
     border: none;
     background-color: transparent;
+    cursor: pointer;
   }
 }
 
 .texto-card{
   padding-bottom: 32px;
+}
+
+.desabilitar-scroll {
+  overflow: hidden;
+  height: 100vh;
 }
