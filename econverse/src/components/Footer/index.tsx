@@ -1,4 +1,3 @@
-import React from 'react'
 import insta from '../../assets/icons/instagram.svg'
 import face from '../../assets/icons/facebook.svg'
 import linke from '../../assets/icons/linkedin.svg'

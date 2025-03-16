@@ -1,4 +1,3 @@
-import React from 'react'
 import './Input.scss'
 import search from '../../assets/icons/Search.svg'
 
