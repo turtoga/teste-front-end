@@ -16,7 +16,7 @@ function App() {
   useEffect(() => {
     const carregarDados = async () => {
       try{
-        const resposta = await fetch('https://cors-anywhere.herokuapp.com/https://app.econverse.com.br/teste-front-end/junior/tecnologia/lista-produtos/produtos.json')
+        const resposta = await fetch('https://app.econverse.com.br/teste-front-end/junior/tecnologia/lista-produtos/produtos.json')
         const resultado = await resposta.json()
         setDadosCar(resultado.products);
       } catch(error){
