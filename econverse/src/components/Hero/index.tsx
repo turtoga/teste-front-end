@@ -8,7 +8,7 @@ function Hero() {
       <img src={imgBanner} alt="banner blackfriday"/>
       <div className="hero-txt">
         <h1>Venha conhecer nossas promoções</h1>
-        <p><span>50% Off</span> nos produtos</p>
+        <p><strong>50% Off</strong> nos produtos</p>
         <Button>Ver Produto</Button>
       </div>
     </section>

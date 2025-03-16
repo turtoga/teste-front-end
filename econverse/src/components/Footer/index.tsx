@@ -60,9 +60,9 @@ function Footer() {
           <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
           <nav className='redes'>
             <ul>
-              <li><a><img alt='instagram logo' src={insta}/></a></li>
-              <li><a><img alt='facebook logo' src={face}/></a></li>
-              <li><a><img alt='linkedin logo' src={linke}/></a></li>
+              <li><a href='#'><img alt='instagram logo' src={insta}/></a></li>
+              <li><a href='#'><img alt='facebook logo' src={face}/></a></li>
+              <li><a href='#'><img alt='linkedin logo' src={linke}/></a></li>
             </ul>
           </nav>
         </div>

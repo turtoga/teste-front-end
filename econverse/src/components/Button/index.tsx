@@ -8,9 +8,12 @@ interface ButtonProps {
 
 function Button(props: ButtonProps) {
   return (
-    <button className={`botao ${props.type}`}>
-      {props.children}
-    </button>
+    <a>
+      <button className={`botao ${props.type}`}>
+        {props.children}
+      </button>
+    </a>
+    
   )
 }
 

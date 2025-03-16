@@ -2,14 +2,15 @@ import './Marca.scss';
 
 interface MarcaProps{
   marca: string,
-  img: string
+  img: string,
+  link: string
 }
 
 function Marca(props: MarcaProps) {
   return (
-    <figure className='marca'>
+    <a href={props.link} className='marca'>
       <img alt={props.marca} src={props.img}/>
-    </figure>
+    </a>
   )
 }
 

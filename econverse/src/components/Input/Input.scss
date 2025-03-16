@@ -6,8 +6,26 @@
   padding: 12px 24px;
   font-size: 14px;
   border-radius: 8px;
+  width: 100%;
   background-color: $cor-branco-alternativo;
   &:focus {
     outline: none;
   };
+  
+}
+
+.input-container {
+  flex: 1;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.icone-input{
+  right: 24px;
+  position: absolute;
+}
+
+.search{
+  border-radius: 10px;
 }

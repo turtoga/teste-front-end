@@ -4,7 +4,7 @@ import imgMarca from "../../assets/img/marcas/LogoMarca.svg"
 import './MarcasSection.scss'
 
 function MarcasSection() {
-  const marcas = new Array(5).fill({ marca: 'econverse', img: imgMarca });
+  const marcas = new Array(5).fill({ marca: 'econverse', img: imgMarca, link:'#' });
 
   return (
     <section className='marcas-section'>
@@ -12,7 +12,7 @@ function MarcasSection() {
       <ul>
       {marcas.map((item, index) => (
         <li>
-          <Marca key={index} marca={item.marca} img={item.img} />
+          <Marca key={index} marca={item.marca} img={item.img} link={item.link}/>
         </li>
       ))}
       </ul>

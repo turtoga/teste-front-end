@@ -1,0 +1,14 @@
+@use '../../../variables' as *;
+
+.categoria-header{
+  font-size: 12px;
+  display: flex;
+  gap: 12px;
+  color: $cor-texto-header;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.ativo {
+  color: $cor-roxo
+}
