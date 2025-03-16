@@ -20,7 +20,7 @@
 
   a {
     font-size: 15px;
-    color: $cor-texto-preto;
+    color: $cor-texto-principal;
     font-weight: bold;
     cursor: pointer;
   }
@@ -30,12 +30,12 @@
   border-top: 1px solid $cor-linha;
   width: 100%;
   position: absolute;
-  top: 35%; 
+  top: 25%; 
   z-index: 0; 
 }
 
 .linha-solo{
-  top: 50%; 
+  top: 30%; 
 }
 
 .padding-pequeno{

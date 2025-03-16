@@ -5,7 +5,8 @@ import search from '../../assets/icons/Search.svg'
 interface InputProps{
   placeholder?: string,
   type: string,
-  search?:boolean
+  search?:boolean,
+  value?: number | string,
 }
 
 function Input(props: InputProps) {
@@ -14,7 +15,7 @@ function Input(props: InputProps) {
       {props.search && 
       <img className='icone-input' src={search}/>
       }
-      <input type={props.type} placeholder={props.placeholder} className={`input ${props.search? 'serach': ''}`}/>
+      <input readOnly={props.type === 'number'} type={props.type} value={props.value} placeholder={props.placeholder} className={`input ${props.search? 'serach': ''}`}/>
     </div> 
   )
 }

@@ -1,0 +1,27 @@
+@use '../../../variables' as *;
+.item-filter {
+  padding: 12px 58px;
+  border-right: 1px solid $cor-linha-borda;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  flex: 1;
+
+  &:last-child {
+    border-right: none;
+  }
+
+  a {
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    color: $cor-item-filtro; 
+  }
+}
+
+.ativo{
+  p{
+    color: $cor-azul;
+  font-weight: bold;
+  }
+}

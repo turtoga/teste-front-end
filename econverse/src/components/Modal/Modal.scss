@@ -1,0 +1,110 @@
+@use '../../variables' as *;
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.modal{
+  z-index: 3;
+  padding: 50px 50px;
+  border: none;
+  border-radius: 6px;
+
+  .fechar {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  dialog {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+    border: none;
+    width: 100vw; 
+    background-color: transparent;
+    position: relative;
+  }
+
+  figure{
+    display: flex;
+    justify-content: space-between;
+    gap: 87px;
+    align-items: center;
+
+    img{
+      width: 247px;
+    }
+  }
+
+  figcaption{
+    min-width: 328px;
+    
+  }
+  
+}
+
+.fechar{
+  position: absolute;
+  top: 17px;
+  right: 29px;
+  font-size: 15px;
+}
+
+.nome-produto{
+  font-size: 20px;
+  font-weight: 400;
+  color: $cor-texto-principal;
+  padding-bottom: 18px;
+}
+
+.preco-produto{
+  font-size: 20px;
+  color: $cor-texto-principal;
+  font-weight: 600;
+  padding-bottom: 32px;
+}
+
+.descricao-produto{
+  font-size: 10px;
+}
+
+.detalhes{
+  color: $cor-azul;
+  font-weight: 600;
+  font-size: 11px;
+}
+
+.botoes {
+  justify-content: space-between;
+  gap: 12px;
+  display: flex;
+  
+}
+
+.contador{
+  max-width: 110px;
+  display: flex;
+  border: 1px solid $cor-texto-contador;
+  border-radius: 4px;
+
+  button{
+    padding: 8px 10px;
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+  }
+}
+
+.texto-card{
+  padding-bottom: 32px;
+}

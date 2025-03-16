@@ -19,9 +19,8 @@ function Categorias() {
     <section className='categorias'>
       <ul>
         {categorias.map((categoria, index) => (
-          <li>
+          <li key={index}>
             <ItemCategoria
-            key={index}
             img={categoria.img}
             titulo={categoria.titulo}
             ativo={categoria.ativo}

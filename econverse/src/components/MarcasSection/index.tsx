@@ -11,8 +11,8 @@ function MarcasSection() {
       <Titulo>Navegue por marcas</Titulo>
       <ul>
       {marcas.map((item, index) => (
-        <li>
-          <Marca key={index} marca={item.marca} img={item.img} link={item.link}/>
+        <li key={index}>
+          <Marca marca={item.marca} img={item.img} link={item.link}/>
         </li>
       ))}
       </ul>
