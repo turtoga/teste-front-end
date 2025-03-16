@@ -8,10 +8,19 @@ import Hero from './components/Hero'
 import MarcasSection from './components/MarcasSection'
 import Newsletter from './components/Newsletter'
 import Carrossel from './components/Carrossel'
+import items from './data/Produtos.json'
+
+interface Produto {
+  productName: string;
+  descriptionShort: string;
+  photo: string;
+  price: number;
+}
+
 
 function App() {
 
-  const [dadosCar, setDadosCar] = useState([])
+  const [dadosCar, setDadosCar] = useState<Produto[]>([])
 
   useEffect(() => {
     const carregarDados = async () => {
@@ -20,7 +29,7 @@ function App() {
         const resultado = await resposta.json()
         setDadosCar(resultado.products);
       } catch(error){
-        console.error('Erro ao resgatar os dados')
+        setDadosCar(items.products)
       }
     }
 
@@ -34,7 +43,7 @@ function App() {
         <Hero/>
           <div className='content-container'>
             <Categorias/>
-            <Carrossel versao='ver1'dados={dadosCar}/>
+            <Carrossel versao='ver1' dados={dadosCar}/>
             <BannerSection/>
             <Carrossel dados={dadosCar}/>
             <BannerSection/>
