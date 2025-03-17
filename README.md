@@ -20,11 +20,11 @@ npm install
 npm run dev
 ```
 
-### Funcionalidades implementadas
-• Modal de Produtos:  Exibe produtos com nome, preço e imagem. Ao clicar, abre um modal com mais detalhes.
-• Carrossel: Navegação dinâmica entre os produtos.
-• Fetch de Dados: Carrega informações dos produtos de um arquivo JSON.
-• Componentização: Estrutura modular com componentes reutilizáveis.
+### Funcionalidades Implementadas
+- **Modal de Produtos**: Exibe produtos com nome, preço e imagem. Ao clicar, abre um modal com mais detalhes.  
+- **Carrossel**: Navegação dinâmica entre os produtos.  
+- **Fetch de Dados**: Carrega informações dos produtos de um arquivo JSON.  
+- **Componentização**: Estrutura modular com componentes reutilizáveis.
 
 ### Tecnologias utilizadas
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
