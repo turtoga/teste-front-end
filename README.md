@@ -1,6 +1,6 @@
 # Teste Frontend Econverse
-• Aplicação desenvolvida com React e TypeScript para exibir uma vitrine de produtos interativa. 
-Disponível para acesso [Clicando aqui](http://https://teste-front-end-ijkv.vercel.app/ "Clicando aqui").
+- Aplicação desenvolvida com React e TypeScript para exibir uma vitrine de produtos interativa. 
+- Disponível para acesso [Clicando aqui](https://teste-front-end-ijkv.vercel.app/).
 
 ### Instalando o projeto
 1.  Clone o repositório na sua máquina:
